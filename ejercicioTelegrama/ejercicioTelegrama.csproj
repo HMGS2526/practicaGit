@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74518D59-9CC8-41FA-A059-EC19EB6B7650}</ProjectGuid>
+    <ProjectGuid>{AAA4E32F-2924-44A3-8C5C-0C9C3BE61175}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ejercicioTelegrama</RootNamespace>
     <AssemblyName>ejercicioTelegrama</AssemblyName>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
