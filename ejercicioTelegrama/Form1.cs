@@ -71,6 +71,10 @@ namespace ejercicioTelegrama
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
